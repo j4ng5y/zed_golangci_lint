@@ -1,0 +1,13 @@
+[package]
+name = "zed_golangci_lint"
+version = "0.1.0"
+edition = "2021"
+publish = true
+license = "MIT"
+
+[lib]
+path = "src/golangci-lint.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.0.6"
